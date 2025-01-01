@@ -1,0 +1,65 @@
+@font-face { font-family: Rota; src: url('resources/fonts/rota-regular.otf'); } 
+
+h1 {
+   font-family: Rota;
+   letter-spacing: 6pt;
+   color: rgb(40, 40, 40);
+   text-transform: uppercase;
+}
+
+body{
+   padding: 0;
+   margin: 0;
+   background: transparent;
+}
+
+header {
+   padding: 0;
+   margin: 0;
+}
+
+.background {
+   position: fixed;
+   z-index: -1;
+   width: 100vw;
+   height: 100vh;
+   padding: 0;
+   margin: 0;
+   background: radial-gradient(circle, #111 5%, transparent 11%);
+   background-size: 1em 1em;
+   background-color: #090909;
+   opacity: 1
+}
+
+.column {
+   float: left;
+   width: 33.33%;
+   text-align: center;
+ }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+   }
+ }
+
+
+img {
+   size: inherit;
+   max-width: 100%;
+}
+
+.flexbox {
+    /* Use a flexbox layout */
+    display: flex;
+    /* Make a horizontal flexbox (the default) */
+    flex-direction: column;
+    /* vertically center the items */
+    text-align: center;
+}
