@@ -1,7 +1,8 @@
 @font-face { font-family: Rota; src: url('resources/fonts/rota-regular.otf'); } 
+@font-face { font-family: Rota; src: url('resources/fonts/rota-regular.otf'); } 
 
 h1 {
-   font-family: Rota;
+   font-family: Rota, cabin, sans-serif;
    letter-spacing: 6pt;
    color: rgb(40, 40, 40);
    text-transform: uppercase;
